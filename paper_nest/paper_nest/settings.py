@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mas%ls8763-lem&c16*$jmy01vklh8aw0jt&4@%yi^d19(2=0@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
@@ -140,3 +141,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'bashajuned143@gmail.com'
 EMAIL_HOST_PASSWORD = 'oape hxdp inhk ciil'  # Not your Gmail password!
 DEBUG=True
+print("DEBUG:", DEBUG)
+print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
