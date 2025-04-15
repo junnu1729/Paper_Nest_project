@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mas%ls8763-lem&c16*$jmy01vklh8aw0jt&4@%yi^d19(2=0@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['paper-nest-project.onrender.com']
 
 
 
