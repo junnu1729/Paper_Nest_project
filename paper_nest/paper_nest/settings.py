@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-mas%ls8763-lem&c16*$jmy01vklh8aw0jt&4@%yi^d19(2=0@
 DEBUG = False
 
 ALLOWED_HOSTS = ['paper-nest-project.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://paper-nest-project.onrender.com']
+
 
 
 
